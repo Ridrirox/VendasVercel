@@ -34,4 +34,4 @@ nunjucks.configure(path.resolve(__dirname, "views"), {
 app.set("view engine", "njk");
 app.use(require("./routes"));
 
-app.listen(process.env.PORT || 3002);
+app.listen(process.env.PORT || 3000);
